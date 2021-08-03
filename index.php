@@ -12,9 +12,10 @@
 <body>
   <h1>APP</h1>
   <div>
-    <form id="group-form" method="post">
+    <form id="group-form">
       <input type="text" name="GNAME" placeholder="Group Name" autofocus required>
       <button type="submit">Add</button>
+      <button type="submit" style="display: none;">UPDATE</button>
     </form>
   </div>
   <table>
